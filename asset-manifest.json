@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-api-challenge/static/css/main.1e706728.chunk.css",
+    "main.js": "/react-api-challenge/static/js/main.d56c6c2f.chunk.js",
+    "main.js.map": "/react-api-challenge/static/js/main.d56c6c2f.chunk.js.map",
+    "runtime-main.js": "/react-api-challenge/static/js/runtime-main.040f557a.js",
+    "runtime-main.js.map": "/react-api-challenge/static/js/runtime-main.040f557a.js.map",
+    "static/js/2.fb7f51d4.chunk.js": "/react-api-challenge/static/js/2.fb7f51d4.chunk.js",
+    "static/js/2.fb7f51d4.chunk.js.map": "/react-api-challenge/static/js/2.fb7f51d4.chunk.js.map",
+    "static/js/3.e2f43392.chunk.js": "/react-api-challenge/static/js/3.e2f43392.chunk.js",
+    "static/js/3.e2f43392.chunk.js.map": "/react-api-challenge/static/js/3.e2f43392.chunk.js.map",
+    "index.html": "/react-api-challenge/index.html",
+    "static/css/main.1e706728.chunk.css.map": "/react-api-challenge/static/css/main.1e706728.chunk.css.map",
+    "static/js/2.fb7f51d4.chunk.js.LICENSE.txt": "/react-api-challenge/static/js/2.fb7f51d4.chunk.js.LICENSE.txt",
+    "static/media/Card.scss": "/react-api-challenge/static/media/background.e86750ad.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.040f557a.js",
+    "static/js/2.fb7f51d4.chunk.js",
+    "static/css/main.1e706728.chunk.css",
+    "static/js/main.d56c6c2f.chunk.js"
+  ]
+}
