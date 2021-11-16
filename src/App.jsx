@@ -4,22 +4,21 @@ import "./App.scss";
 import NavBar from "./components/NavBar/NavBar";
 import Main from "./containers/Main/Main";
 
-import beers from "./data/beers";
+// import beers from "./data/beers";
 
 const App = () => {
-  // const [beers, setBeers]=useState(null);
-
-  // useEffect(()=>{
-  //   fetch('https://api.punkapi.com/v2/beers')
-  //     .then(res=> res.json())
-  //     // .then(beers => setBeers(beers))
-  //     .then(beers => {
-  //       console.log("==================");
-  //       console.log(beers);
-  //       setBeers(beers)
-  //     })
-  //     .catch(err=> console.log(err))
-  // },[]);
+  const [beers, setBeers]=useState([]);
+  useEffect(()=>{
+    fetch('https://api.punkapi.com/v2/beers')
+      .then(res=> res.json())
+      .then(beers => setBeers(beers))
+      // .then(beers => {
+      //   console.log("==================");
+      //   console.log(beers);
+      //   setBeers(beers)
+      // })
+      .catch(err=> console.log(err))
+  },[]);
 
   const [searchText, setSearchText]=useState("");
   const handleInput=event=>{
@@ -42,7 +41,7 @@ const App = () => {
         return; 
     }
   }
-
+//chk if beers is null and return "loading..."
   const filteredBeers=beers.filter(beer=>{
     const beerNameLowerCase=beer.name.toLowerCase();
     // console.log(parseInt(beer.first_brewed.split("/")[1]));

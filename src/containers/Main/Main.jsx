@@ -10,7 +10,9 @@ const Main = props => {
   // console.log(beers);
 
   return (
+    
     <div className="main">
+      <h2>All about beers...</h2>
       <CardList beers={beers} />
     </div>
   )
